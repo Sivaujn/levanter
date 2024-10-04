@@ -24,7 +24,7 @@ bot.addCommand(
     })
     const [date, time] = getDate()
     let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+						𝐀𝐉 𝐁𝐎𝐓=¥
 ╰────────────────╯
 
 ╭────────────────
@@ -78,7 +78,7 @@ bot.addCommand(
 )
 bot.addCommand(
   {
-    pattern: 'menu ?(.*)',
+    pattern: 'list ?(.*)',
     dontAddCommandList: true,
   },
   async (message, match) => {
@@ -93,7 +93,7 @@ bot.addCommand(
       }
     })
     const [date, time] = getDate()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
+    let msg = `\`\`\`╭═══ 𝐀𝐉 𝐁𝐎𝐓=¥ ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
